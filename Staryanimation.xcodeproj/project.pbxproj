@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D25446D9280D96910039FE5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D25446D8280D96910039FE5A /* AppDelegate.m */; };
+		D25446DC280D96910039FE5A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D25446DB280D96910039FE5A /* SceneDelegate.m */; };
+		D25446DF280D96910039FE5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D25446DE280D96910039FE5A /* ViewController.m */; };
+		D25446E2280D96910039FE5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25446E0280D96910039FE5A /* Main.storyboard */; };
+		D25446E4280D96920039FE5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D25446E3280D96920039FE5A /* Assets.xcassets */; };
+		D25446E7280D96920039FE5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25446E5280D96920039FE5A /* LaunchScreen.storyboard */; };
+		D25446EA280D96920039FE5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D25446E9280D96920039FE5A /* main.m */; };
+		D25446F2280D99C60039FE5A /* HYBasicsController.m in Sources */ = {isa = PBXBuildFile; fileRef = D25446F1280D99C60039FE5A /* HYBasicsController.m */; };
+		D254470B28100DF10039FE5A /* HYCollisionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D25446FD28100DF10039FE5A /* HYCollisionView.m */; };
+		D254470C28100DF10039FE5A /* HYAttachmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = D25446FE28100DF10039FE5A /* HYAttachmentView.m */; };
+		D254470D28100DF10039FE5A /* HYSpringView.m in Sources */ = {isa = PBXBuildFile; fileRef = D254470028100DF10039FE5A /* HYSpringView.m */; };
+		D254470E28100DF10039FE5A /* HYSnapView.m in Sources */ = {isa = PBXBuildFile; fileRef = D254470228100DF10039FE5A /* HYSnapView.m */; };
+		D254470F28100DF10039FE5A /* HYPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = D254470528100DF10039FE5A /* HYPushView.m */; };
+		D254471028100DF10039FE5A /* HYUIDynamicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D254470628100DF10039FE5A /* HYUIDynamicVC.m */; };
+		D254471128100DF10039FE5A /* HYDynamicDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D254470728100DF10039FE5A /* HYDynamicDemoVC.m */; };
+		D254471228100DF10039FE5A /* HYDynamicBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D254470928100DF10039FE5A /* HYDynamicBaseView.m */; };
+		D2544715281010F20039FE5A /* HYSVGAAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D2544714281010F20039FE5A /* HYSVGAAnimationVC.m */; };
+		D25447182810111D0039FE5A /* HYJsonAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D25447172810111D0039FE5A /* HYJsonAnimationVC.m */; };
+		D254471B281011430039FE5A /* HYBezierVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D254471A281011430039FE5A /* HYBezierVC.m */; };
+		D254471E281011590039FE5A /* HYParticleAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D254471D281011590039FE5A /* HYParticleAnimationVC.m */; };
+		D2544722281011A90039FE5A /* HYWritingAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D2544721281011A90039FE5A /* HYWritingAnimationVC.m */; };
+		D254472C2810123C0039FE5A /* HYTransitionAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D254472B2810123C0039FE5A /* HYTransitionAnimationVC.m */; };
+		D25448D7281039510039FE5A /* HYSVGAPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D25448D5281039510039FE5A /* HYSVGAPlayer.m */; };
+		D25448DA2810FBB30039FE5A /* HYPraiseBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = D25448D92810FBB30039FE5A /* HYPraiseBtn.m */; };
+		D25448DC281100880039FE5A /* ficfun_loading.json in Resources */ = {isa = PBXBuildFile; fileRef = D25448DB281100880039FE5A /* ficfun_loading.json */; };
+		D25448DF281127FF0039FE5A /* UIBezierPath+HYWriteBezier.m in Sources */ = {isa = PBXBuildFile; fileRef = D25448DE281127FF0039FE5A /* UIBezierPath+HYWriteBezier.m */; };
+		D25448E32811555B0039FE5A /* IYQLauchTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D25448E12811555B0039FE5A /* IYQLauchTool.m */; };
+		D25448EC2811557C0039FE5A /* IYQCircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D25448E42811557B0039FE5A /* IYQCircleLayer.m */; };
+		D25448ED2811557C0039FE5A /* IYQTriangleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D25448E52811557B0039FE5A /* IYQTriangleLayer.m */; };
+		D25448EE2811557C0039FE5A /* IYQWaterwaveLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D25448E72811557C0039FE5A /* IYQWaterwaveLayer.m */; };
+		D25448EF2811557C0039FE5A /* IYQRectangleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D25448E92811557C0039FE5A /* IYQRectangleLayer.m */; };
+		D25448F22811558D0039FE5A /* IYQAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D25448F02811558D0039FE5A /* IYQAnimationView.m */; };
+		D25448F62811606E0039FE5A /* HYGradientController.m in Sources */ = {isa = PBXBuildFile; fileRef = D25448F52811606E0039FE5A /* HYGradientController.m */; };
+		D25448F9281161430039FE5A /* LoadingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D25448F8281161430039FE5A /* LoadingLabel.m */; };
+		D2544903281577D80039FE5A /* HYLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2544902281577D80039FE5A /* HYLayerViewController.m */; };
+		D25449062815780E0039FE5A /* HYQuartz2DView.m in Sources */ = {isa = PBXBuildFile; fileRef = D25449052815780E0039FE5A /* HYQuartz2DView.m */; };
+		D25449092815783B0039FE5A /* HYCALayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D25449082815783A0039FE5A /* HYCALayerView.m */; };
+		D254490C281578690039FE5A /* HYCAShapeLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D254490B281578690039FE5A /* HYCAShapeLayerView.m */; };
+		D254490F28163A8E0039FE5A /* HYCustomLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D254490E28163A8E0039FE5A /* HYCustomLayer.m */; };
+		E96CC31DF63FF3ADCAA47F94 /* libPods-Staryanimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B15E5164D858B971871C08 /* libPods-Staryanimation.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48B15E5164D858B971871C08 /* libPods-Staryanimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Staryanimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		987225F34BE3C0CB3AD7771A /* Pods-Staryanimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Staryanimation.debug.xcconfig"; path = "Target Support Files/Pods-Staryanimation/Pods-Staryanimation.debug.xcconfig"; sourceTree = "<group>"; };
+		D25446D4280D96910039FE5A /* Staryanimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Staryanimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25446D7280D96910039FE5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D25446D8280D96910039FE5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D25446DA280D96910039FE5A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D25446DB280D96910039FE5A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D25446DD280D96910039FE5A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D25446DE280D96910039FE5A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D25446E1280D96910039FE5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D25446E3280D96920039FE5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D25446E6280D96920039FE5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D25446E8280D96920039FE5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D25446E9280D96920039FE5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D25446F0280D99C60039FE5A /* HYBasicsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYBasicsController.h; sourceTree = "<group>"; };
+		D25446F1280D99C60039FE5A /* HYBasicsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYBasicsController.m; sourceTree = "<group>"; };
+		D25446FB28100DF10039FE5A /* HYCollisionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYCollisionView.h; sourceTree = "<group>"; };
+		D25446FC28100DF10039FE5A /* HYDynamicBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYDynamicBaseView.h; sourceTree = "<group>"; };
+		D25446FD28100DF10039FE5A /* HYCollisionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYCollisionView.m; sourceTree = "<group>"; };
+		D25446FE28100DF10039FE5A /* HYAttachmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYAttachmentView.m; sourceTree = "<group>"; };
+		D25446FF28100DF10039FE5A /* HYDynamicDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYDynamicDemoVC.h; sourceTree = "<group>"; };
+		D254470028100DF10039FE5A /* HYSpringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYSpringView.m; sourceTree = "<group>"; };
+		D254470128100DF10039FE5A /* HYUIDynamicVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYUIDynamicVC.h; sourceTree = "<group>"; };
+		D254470228100DF10039FE5A /* HYSnapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYSnapView.m; sourceTree = "<group>"; };
+		D254470328100DF10039FE5A /* HYAttachmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYAttachmentView.h; sourceTree = "<group>"; };
+		D254470428100DF10039FE5A /* HYSnapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYSnapView.h; sourceTree = "<group>"; };
+		D254470528100DF10039FE5A /* HYPushView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYPushView.m; sourceTree = "<group>"; };
+		D254470628100DF10039FE5A /* HYUIDynamicVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYUIDynamicVC.m; sourceTree = "<group>"; };
+		D254470728100DF10039FE5A /* HYDynamicDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYDynamicDemoVC.m; sourceTree = "<group>"; };
+		D254470828100DF10039FE5A /* HYPushView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYPushView.h; sourceTree = "<group>"; };
+		D254470928100DF10039FE5A /* HYDynamicBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYDynamicBaseView.m; sourceTree = "<group>"; };
+		D254470A28100DF10039FE5A /* HYSpringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYSpringView.h; sourceTree = "<group>"; };
+		D2544713281010F20039FE5A /* HYSVGAAnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYSVGAAnimationVC.h; sourceTree = "<group>"; };
+		D2544714281010F20039FE5A /* HYSVGAAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYSVGAAnimationVC.m; sourceTree = "<group>"; };
+		D25447162810111D0039FE5A /* HYJsonAnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYJsonAnimationVC.h; sourceTree = "<group>"; };
+		D25447172810111D0039FE5A /* HYJsonAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYJsonAnimationVC.m; sourceTree = "<group>"; };
+		D2544719281011430039FE5A /* HYBezierVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYBezierVC.h; sourceTree = "<group>"; };
+		D254471A281011430039FE5A /* HYBezierVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYBezierVC.m; sourceTree = "<group>"; };
+		D254471C281011590039FE5A /* HYParticleAnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYParticleAnimationVC.h; sourceTree = "<group>"; };
+		D254471D281011590039FE5A /* HYParticleAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYParticleAnimationVC.m; sourceTree = "<group>"; };
+		D2544720281011A90039FE5A /* HYWritingAnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYWritingAnimationVC.h; sourceTree = "<group>"; };
+		D2544721281011A90039FE5A /* HYWritingAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYWritingAnimationVC.m; sourceTree = "<group>"; };
+		D254472A2810123C0039FE5A /* HYTransitionAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYTransitionAnimationVC.h; sourceTree = "<group>"; };
+		D254472B2810123C0039FE5A /* HYTransitionAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYTransitionAnimationVC.m; sourceTree = "<group>"; };
+		D25448D5281039510039FE5A /* HYSVGAPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYSVGAPlayer.m; sourceTree = "<group>"; };
+		D25448D6281039510039FE5A /* HYSVGAPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYSVGAPlayer.h; sourceTree = "<group>"; };
+		D25448D82810FBB30039FE5A /* HYPraiseBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYPraiseBtn.h; sourceTree = "<group>"; };
+		D25448D92810FBB30039FE5A /* HYPraiseBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYPraiseBtn.m; sourceTree = "<group>"; };
+		D25448DB281100880039FE5A /* ficfun_loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ficfun_loading.json; sourceTree = "<group>"; };
+		D25448DD281127FE0039FE5A /* UIBezierPath+HYWriteBezier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+HYWriteBezier.h"; sourceTree = "<group>"; };
+		D25448DE281127FF0039FE5A /* UIBezierPath+HYWriteBezier.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+HYWriteBezier.m"; sourceTree = "<group>"; };
+		D25448E12811555B0039FE5A /* IYQLauchTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQLauchTool.m; sourceTree = "<group>"; };
+		D25448E22811555B0039FE5A /* IYQLauchTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQLauchTool.h; sourceTree = "<group>"; };
+		D25448E42811557B0039FE5A /* IYQCircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQCircleLayer.m; sourceTree = "<group>"; };
+		D25448E52811557B0039FE5A /* IYQTriangleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQTriangleLayer.m; sourceTree = "<group>"; };
+		D25448E62811557C0039FE5A /* IYQTriangleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQTriangleLayer.h; sourceTree = "<group>"; };
+		D25448E72811557C0039FE5A /* IYQWaterwaveLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQWaterwaveLayer.m; sourceTree = "<group>"; };
+		D25448E82811557C0039FE5A /* IYQRectangleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQRectangleLayer.h; sourceTree = "<group>"; };
+		D25448E92811557C0039FE5A /* IYQRectangleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQRectangleLayer.m; sourceTree = "<group>"; };
+		D25448EA2811557C0039FE5A /* IYQCircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQCircleLayer.h; sourceTree = "<group>"; };
+		D25448EB2811557C0039FE5A /* IYQWaterwaveLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQWaterwaveLayer.h; sourceTree = "<group>"; };
+		D25448F02811558D0039FE5A /* IYQAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IYQAnimationView.m; sourceTree = "<group>"; };
+		D25448F12811558D0039FE5A /* IYQAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IYQAnimationView.h; sourceTree = "<group>"; };
+		D25448F42811606E0039FE5A /* HYGradientController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYGradientController.h; sourceTree = "<group>"; };
+		D25448F52811606E0039FE5A /* HYGradientController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYGradientController.m; sourceTree = "<group>"; };
+		D25448F7281161430039FE5A /* LoadingLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingLabel.h; sourceTree = "<group>"; };
+		D25448F8281161430039FE5A /* LoadingLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingLabel.m; sourceTree = "<group>"; };
+		D2544901281577D80039FE5A /* HYLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYLayerViewController.h; sourceTree = "<group>"; };
+		D2544902281577D80039FE5A /* HYLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYLayerViewController.m; sourceTree = "<group>"; };
+		D25449042815780E0039FE5A /* HYQuartz2DView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYQuartz2DView.h; sourceTree = "<group>"; };
+		D25449052815780E0039FE5A /* HYQuartz2DView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYQuartz2DView.m; sourceTree = "<group>"; };
+		D25449072815783A0039FE5A /* HYCALayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYCALayerView.h; sourceTree = "<group>"; };
+		D25449082815783A0039FE5A /* HYCALayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCALayerView.m; sourceTree = "<group>"; };
+		D254490A281578690039FE5A /* HYCAShapeLayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYCAShapeLayerView.h; sourceTree = "<group>"; };
+		D254490B281578690039FE5A /* HYCAShapeLayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCAShapeLayerView.m; sourceTree = "<group>"; };
+		D254490D28163A8E0039FE5A /* HYCustomLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYCustomLayer.h; sourceTree = "<group>"; };
+		D254490E28163A8E0039FE5A /* HYCustomLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCustomLayer.m; sourceTree = "<group>"; };
+		F118639DF0DAFAE8EA88B982 /* Pods-Staryanimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Staryanimation.release.xcconfig"; path = "Target Support Files/Pods-Staryanimation/Pods-Staryanimation.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D25446D1280D96910039FE5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E96CC31DF63FF3ADCAA47F94 /* libPods-Staryanimation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C654D255B4752FB1E713A42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48B15E5164D858B971871C08 /* libPods-Staryanimation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D25446CB280D96910039FE5A = {
+			isa = PBXGroup;
+			children = (
+				D25446D6280D96910039FE5A /* Staryanimation */,
+				D25446D5280D96910039FE5A /* Products */,
+				E1BA26970C2822EFFC6FFCE0 /* Pods */,
+				0C654D255B4752FB1E713A42 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D25446D5280D96910039FE5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D25446D4280D96910039FE5A /* Staryanimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D25446D6280D96910039FE5A /* Staryanimation */ = {
+			isa = PBXGroup;
+			children = (
+				D2544900281577740039FE5A /* CA&CAShape&Quartz2D */,
+				D25448F3281160430039FE5A /* GradientAnimation */,
+				D25448E0281155260039FE5A /* LauchAnimation */,
+				D25447292810123C0039FE5A /* TransitionAnimation */,
+				D254471F2810118A0039FE5A /* WritingAnimation */,
+				D25446FA280FF67F0039FE5A /* SVGAAnimation */,
+				D25446F9280FF66D0039FE5A /* JsonAnimation */,
+				D25446F8280FF6610039FE5A /* Bezier */,
+				D25446F7280FF64B0039FE5A /* UIDynamic */,
+				D25446F6280FF27D0039FE5A /* ParticleAnimation */,
+				D25446F5280FF24B0039FE5A /* BasicAnimation */,
+				D25446D7280D96910039FE5A /* AppDelegate.h */,
+				D25446D8280D96910039FE5A /* AppDelegate.m */,
+				D25446DA280D96910039FE5A /* SceneDelegate.h */,
+				D25446DB280D96910039FE5A /* SceneDelegate.m */,
+				D25446DD280D96910039FE5A /* ViewController.h */,
+				D25446DE280D96910039FE5A /* ViewController.m */,
+				D25448DB281100880039FE5A /* ficfun_loading.json */,
+				D25446E0280D96910039FE5A /* Main.storyboard */,
+				D25446E3280D96920039FE5A /* Assets.xcassets */,
+				D25446E5280D96920039FE5A /* LaunchScreen.storyboard */,
+				D25446E8280D96920039FE5A /* Info.plist */,
+				D25446E9280D96920039FE5A /* main.m */,
+			);
+			path = Staryanimation;
+			sourceTree = "<group>";
+		};
+		D25446F5280FF24B0039FE5A /* BasicAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D25446F0280D99C60039FE5A /* HYBasicsController.h */,
+				D25446F1280D99C60039FE5A /* HYBasicsController.m */,
+			);
+			path = BasicAnimation;
+			sourceTree = "<group>";
+		};
+		D25446F6280FF27D0039FE5A /* ParticleAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D254471C281011590039FE5A /* HYParticleAnimationVC.h */,
+				D254471D281011590039FE5A /* HYParticleAnimationVC.m */,
+				D25448D82810FBB30039FE5A /* HYPraiseBtn.h */,
+				D25448D92810FBB30039FE5A /* HYPraiseBtn.m */,
+			);
+			path = ParticleAnimation;
+			sourceTree = "<group>";
+		};
+		D25446F7280FF64B0039FE5A /* UIDynamic */ = {
+			isa = PBXGroup;
+			children = (
+				D254470328100DF10039FE5A /* HYAttachmentView.h */,
+				D25446FE28100DF10039FE5A /* HYAttachmentView.m */,
+				D25446FB28100DF10039FE5A /* HYCollisionView.h */,
+				D25446FD28100DF10039FE5A /* HYCollisionView.m */,
+				D25446FC28100DF10039FE5A /* HYDynamicBaseView.h */,
+				D254470928100DF10039FE5A /* HYDynamicBaseView.m */,
+				D25446FF28100DF10039FE5A /* HYDynamicDemoVC.h */,
+				D254470728100DF10039FE5A /* HYDynamicDemoVC.m */,
+				D254470828100DF10039FE5A /* HYPushView.h */,
+				D254470528100DF10039FE5A /* HYPushView.m */,
+				D254470428100DF10039FE5A /* HYSnapView.h */,
+				D254470228100DF10039FE5A /* HYSnapView.m */,
+				D254470A28100DF10039FE5A /* HYSpringView.h */,
+				D254470028100DF10039FE5A /* HYSpringView.m */,
+				D254470128100DF10039FE5A /* HYUIDynamicVC.h */,
+				D254470628100DF10039FE5A /* HYUIDynamicVC.m */,
+			);
+			path = UIDynamic;
+			sourceTree = "<group>";
+		};
+		D25446F8280FF6610039FE5A /* Bezier */ = {
+			isa = PBXGroup;
+			children = (
+				D2544719281011430039FE5A /* HYBezierVC.h */,
+				D254471A281011430039FE5A /* HYBezierVC.m */,
+			);
+			path = Bezier;
+			sourceTree = "<group>";
+		};
+		D25446F9280FF66D0039FE5A /* JsonAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D25447162810111D0039FE5A /* HYJsonAnimationVC.h */,
+				D25447172810111D0039FE5A /* HYJsonAnimationVC.m */,
+			);
+			path = JsonAnimation;
+			sourceTree = "<group>";
+		};
+		D25446FA280FF67F0039FE5A /* SVGAAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D25448D6281039510039FE5A /* HYSVGAPlayer.h */,
+				D25448D5281039510039FE5A /* HYSVGAPlayer.m */,
+				D2544713281010F20039FE5A /* HYSVGAAnimationVC.h */,
+				D2544714281010F20039FE5A /* HYSVGAAnimationVC.m */,
+			);
+			path = SVGAAnimation;
+			sourceTree = "<group>";
+		};
+		D254471F2810118A0039FE5A /* WritingAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D2544720281011A90039FE5A /* HYWritingAnimationVC.h */,
+				D2544721281011A90039FE5A /* HYWritingAnimationVC.m */,
+				D25448DD281127FE0039FE5A /* UIBezierPath+HYWriteBezier.h */,
+				D25448DE281127FF0039FE5A /* UIBezierPath+HYWriteBezier.m */,
+			);
+			path = WritingAnimation;
+			sourceTree = "<group>";
+		};
+		D25447292810123C0039FE5A /* TransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D254472A2810123C0039FE5A /* HYTransitionAnimationVC.h */,
+				D254472B2810123C0039FE5A /* HYTransitionAnimationVC.m */,
+			);
+			path = TransitionAnimation;
+			sourceTree = "<group>";
+		};
+		D25448E0281155260039FE5A /* LauchAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D25448EA2811557C0039FE5A /* IYQCircleLayer.h */,
+				D25448E42811557B0039FE5A /* IYQCircleLayer.m */,
+				D25448E82811557C0039FE5A /* IYQRectangleLayer.h */,
+				D25448E92811557C0039FE5A /* IYQRectangleLayer.m */,
+				D25448E62811557C0039FE5A /* IYQTriangleLayer.h */,
+				D25448E52811557B0039FE5A /* IYQTriangleLayer.m */,
+				D25448EB2811557C0039FE5A /* IYQWaterwaveLayer.h */,
+				D25448E72811557C0039FE5A /* IYQWaterwaveLayer.m */,
+				D25448F12811558D0039FE5A /* IYQAnimationView.h */,
+				D25448F02811558D0039FE5A /* IYQAnimationView.m */,
+				D25448E22811555B0039FE5A /* IYQLauchTool.h */,
+				D25448E12811555B0039FE5A /* IYQLauchTool.m */,
+			);
+			path = LauchAnimation;
+			sourceTree = "<group>";
+		};
+		D25448F3281160430039FE5A /* GradientAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D25448F42811606E0039FE5A /* HYGradientController.h */,
+				D25448F52811606E0039FE5A /* HYGradientController.m */,
+				D25448F7281161430039FE5A /* LoadingLabel.h */,
+				D25448F8281161430039FE5A /* LoadingLabel.m */,
+			);
+			path = GradientAnimation;
+			sourceTree = "<group>";
+		};
+		D2544900281577740039FE5A /* CA&CAShape&Quartz2D */ = {
+			isa = PBXGroup;
+			children = (
+				D2544901281577D80039FE5A /* HYLayerViewController.h */,
+				D2544902281577D80039FE5A /* HYLayerViewController.m */,
+				D25449042815780E0039FE5A /* HYQuartz2DView.h */,
+				D25449052815780E0039FE5A /* HYQuartz2DView.m */,
+				D25449072815783A0039FE5A /* HYCALayerView.h */,
+				D25449082815783A0039FE5A /* HYCALayerView.m */,
+				D254490A281578690039FE5A /* HYCAShapeLayerView.h */,
+				D254490B281578690039FE5A /* HYCAShapeLayerView.m */,
+				D254490D28163A8E0039FE5A /* HYCustomLayer.h */,
+				D254490E28163A8E0039FE5A /* HYCustomLayer.m */,
+			);
+			path = "CA&CAShape&Quartz2D";
+			sourceTree = "<group>";
+		};
+		E1BA26970C2822EFFC6FFCE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				987225F34BE3C0CB3AD7771A /* Pods-Staryanimation.debug.xcconfig */,
+				F118639DF0DAFAE8EA88B982 /* Pods-Staryanimation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D25446D3280D96910039FE5A /* Staryanimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D25446ED280D96920039FE5A /* Build configuration list for PBXNativeTarget "Staryanimation" */;
+			buildPhases = (
+				74B8C11A086E702E49816AFE /* [CP] Check Pods Manifest.lock */,
+				D25446D0280D96910039FE5A /* Sources */,
+				D25446D1280D96910039FE5A /* Frameworks */,
+				D25446D2280D96910039FE5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Staryanimation;
+			productName = Staryanimation;
+			productReference = D25446D4280D96910039FE5A /* Staryanimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D25446CC280D96910039FE5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					D25446D3280D96910039FE5A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = D25446CF280D96910039FE5A /* Build configuration list for PBXProject "Staryanimation" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D25446CB280D96910039FE5A;
+			productRefGroup = D25446D5280D96910039FE5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D25446D3280D96910039FE5A /* Staryanimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D25446D2280D96910039FE5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25446E7280D96920039FE5A /* LaunchScreen.storyboard in Resources */,
+				D25446E4280D96920039FE5A /* Assets.xcassets in Resources */,
+				D25446E2280D96910039FE5A /* Main.storyboard in Resources */,
+				D25448DC281100880039FE5A /* ficfun_loading.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		74B8C11A086E702E49816AFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Staryanimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D25446D0280D96910039FE5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25448F62811606E0039FE5A /* HYGradientController.m in Sources */,
+				D254470C28100DF10039FE5A /* HYAttachmentView.m in Sources */,
+				D254471E281011590039FE5A /* HYParticleAnimationVC.m in Sources */,
+				D25448ED2811557C0039FE5A /* IYQTriangleLayer.m in Sources */,
+				D25449062815780E0039FE5A /* HYQuartz2DView.m in Sources */,
+				D254472C2810123C0039FE5A /* HYTransitionAnimationVC.m in Sources */,
+				D254471228100DF10039FE5A /* HYDynamicBaseView.m in Sources */,
+				D254471B281011430039FE5A /* HYBezierVC.m in Sources */,
+				D25448DA2810FBB30039FE5A /* HYPraiseBtn.m in Sources */,
+				D254490C281578690039FE5A /* HYCAShapeLayerView.m in Sources */,
+				D254490F28163A8E0039FE5A /* HYCustomLayer.m in Sources */,
+				D25446F2280D99C60039FE5A /* HYBasicsController.m in Sources */,
+				D254470E28100DF10039FE5A /* HYSnapView.m in Sources */,
+				D25446DF280D96910039FE5A /* ViewController.m in Sources */,
+				D25448D7281039510039FE5A /* HYSVGAPlayer.m in Sources */,
+				D254470D28100DF10039FE5A /* HYSpringView.m in Sources */,
+				D2544715281010F20039FE5A /* HYSVGAAnimationVC.m in Sources */,
+				D25446D9280D96910039FE5A /* AppDelegate.m in Sources */,
+				D25448EE2811557C0039FE5A /* IYQWaterwaveLayer.m in Sources */,
+				D25448F22811558D0039FE5A /* IYQAnimationView.m in Sources */,
+				D254470F28100DF10039FE5A /* HYPushView.m in Sources */,
+				D2544903281577D80039FE5A /* HYLayerViewController.m in Sources */,
+				D25448EF2811557C0039FE5A /* IYQRectangleLayer.m in Sources */,
+				D25447182810111D0039FE5A /* HYJsonAnimationVC.m in Sources */,
+				D25449092815783B0039FE5A /* HYCALayerView.m in Sources */,
+				D25446EA280D96920039FE5A /* main.m in Sources */,
+				D2544722281011A90039FE5A /* HYWritingAnimationVC.m in Sources */,
+				D25448F9281161430039FE5A /* LoadingLabel.m in Sources */,
+				D25446DC280D96910039FE5A /* SceneDelegate.m in Sources */,
+				D254471028100DF10039FE5A /* HYUIDynamicVC.m in Sources */,
+				D25448E32811555B0039FE5A /* IYQLauchTool.m in Sources */,
+				D25448DF281127FF0039FE5A /* UIBezierPath+HYWriteBezier.m in Sources */,
+				D25448EC2811557C0039FE5A /* IYQCircleLayer.m in Sources */,
+				D254470B28100DF10039FE5A /* HYCollisionView.m in Sources */,
+				D254471128100DF10039FE5A /* HYDynamicDemoVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D25446E0280D96910039FE5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D25446E1280D96910039FE5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D25446E5280D96920039FE5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D25446E6280D96920039FE5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D25446EB280D96920039FE5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D25446EC280D96920039FE5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D25446EE280D96920039FE5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 987225F34BE3C0CB3AD7771A /* Pods-Staryanimation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Staryanimation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stary.Staryanimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D25446EF280D96920039FE5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F118639DF0DAFAE8EA88B982 /* Pods-Staryanimation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Staryanimation/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stary.Staryanimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D25446CF280D96910039FE5A /* Build configuration list for PBXProject "Staryanimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25446EB280D96920039FE5A /* Debug */,
+				D25446EC280D96920039FE5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D25446ED280D96920039FE5A /* Build configuration list for PBXNativeTarget "Staryanimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25446EE280D96920039FE5A /* Debug */,
+				D25446EF280D96920039FE5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D25446CC280D96910039FE5A /* Project object */;
+}
